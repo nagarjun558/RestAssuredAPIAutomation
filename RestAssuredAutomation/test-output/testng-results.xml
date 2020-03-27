@@ -1,17 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4074" started-at="2020-03-26T15:29:38Z" finished-at="2020-03-26T15:29:42Z">
+  <suite name="Default suite" duration-ms="7428" started-at="2020-03-27T01:52:54Z" finished-at="2020-03-27T01:53:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4074" started-at="2020-03-26T15:29:38Z" finished-at="2020-03-26T15:29:42Z">
-      <class name="TC07_GET_Authorization">
-        <test-method status="PASS" signature="AuthorizationTest()[pri:0, instance:TC07_GET_Authorization@3c5a99da]" name="AuthorizationTest" duration-ms="4054" started-at="2020-03-26T20:59:38Z" finished-at="2020-03-26T20:59:42Z">
+    <test name="Default test" duration-ms="7428" started-at="2020-03-27T01:52:54Z" finished-at="2020-03-27T01:53:01Z">
+      <class name="DDTesting.DDtesting_POST_Excel">
+        <test-method status="PASS" signature="postNewEmployeeCreation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DDTesting.DDtesting_POST_Excel@5e025e70]" name="postNewEmployeeCreation" duration-ms="3824" started-at="2020-03-27T07:22:55Z" data-provider="empdataprovider" finished-at="2020-03-27T07:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aj6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AuthorizationTest -->
-      </class> <!-- TC07_GET_Authorization -->
+        </test-method> <!-- postNewEmployeeCreation -->
+        <test-method status="PASS" signature="postNewEmployeeCreation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DDTesting.DDtesting_POST_Excel@5e025e70]" name="postNewEmployeeCreation" duration-ms="839" started-at="2020-03-27T07:22:58Z" data-provider="empdataprovider" finished-at="2020-03-27T07:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aj7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewEmployeeCreation -->
+        <test-method status="PASS" signature="postNewEmployeeCreation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DDTesting.DDtesting_POST_Excel@5e025e70]" name="postNewEmployeeCreation" duration-ms="824" started-at="2020-03-27T07:22:59Z" data-provider="empdataprovider" finished-at="2020-03-27T07:23:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aj8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewEmployeeCreation -->
+        <test-method status="PASS" signature="postNewEmployeeCreation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:DDTesting.DDtesting_POST_Excel@5e025e70]" name="postNewEmployeeCreation" duration-ms="830" started-at="2020-03-27T07:23:00Z" data-provider="empdataprovider" finished-at="2020-03-27T07:23:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewEmployeeCreation -->
+      </class> <!-- DDTesting.DDtesting_POST_Excel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
